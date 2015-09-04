@@ -158,7 +158,7 @@ UAS::UAS(MAVLinkProtocol* protocol, Vehicle* vehicle) : UASInterface(),
     ymag_var(4e-6),
     zmag_var(3e-6),
     abs_pressure_var(5e-4),
-    diff_pressure_var(1.0f),
+    diff_pressure_var(1.0e-4),
     pressure_alt_var(5e-2),
     temperature_var(1e-4),
 
